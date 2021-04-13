@@ -32,6 +32,7 @@ namespace Http_crawl_data
             var fullpath = Path.Combine(directory_mydoc, filename);
             List<String> lstString = objs.Select(i => i.ToString()).ToList();
             System.IO.File.WriteAllLines(fullpath, lstString);
+            //aa
         }
     }
 }
